@@ -1,0 +1,363 @@
+/*
+style by ASP Consultants.
+author - saru
+*/
+//font-family: 'TitilliumWeb-Regular';
+@font-face {
+    font-family: 'LatoLatin-Regular 3';
+    src: url('../fonts/LatoLatin-Regular 3.ttf');
+    
+}
+@font-face {
+    font-family: 'Lato-Light';
+    src: url('../fonts/Lato-Light.ttf');
+    
+}
+@font-face {
+    font-family: 'TitilliumWeb-Bold';
+    src: url('../fonts/TitilliumWeb-Bold.ttf');
+    
+}
+@font-face {
+    font-family: 'TitilliumWeb-Regular';
+    src: url('../fonts/TitilliumWeb-Regular.ttf');
+    
+}
+@font-face {
+    font-family: 'Amalfi Coast';
+    src: url('../fonts/Amalfi Coast.ttf');
+    
+}
+
+  body{
+	font-family: 'TitilliumWeb-Regular';
+	font-size: 14px;
+	color:#0f1113;
+
+  }
+	html {
+	scroll-behavior: smooth;  
+	font-family: 'TitilliumWeb-Regular';
+	font-size: 14px;
+	color:#0f1113;	
+	overflow:auto;
+	}
+h2{
+	font-size:25px;
+}	
+p{
+	  font-size: 1.3rem;
+	  font-weight:100;
+	  color:#333;
+	  line-height:30px;
+  }  	
+.sectiongap{
+	padding-top:10px;
+	padding-bottom:40px;
+}  
+.headertext{
+	font-size:1.5em;
+	font-weight:600;
+}
+.linebreak{
+	background-image:url("../images/div0.png");
+	background-repeat:no-repeat;
+	background-position:center;
+	display: block; 
+	text-align:center;
+	height:45px;
+	margin-bottom:30px;
+}
+.container-fluid {  
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.table td{
+    padding: 1rem;
+    vertical-align: middle;
+    
+}  
+.navfont{
+	font-size:1.2rem;
+	font-weight:300;
+	color:#000 !important;
+}
+.nav-item{
+	padding-right:20px;
+}
+.nav-item a:hover{
+	color:gray !important;
+}
+.reverse{
+	background-color:#f2df80; 
+	color:#181818;
+}
+.themebackground{
+	background-color:#17a2b8!important;//D86D12
+	color:#f2df80;
+}  
+
+.fonttangerine-big{
+  font-family: 'TitilliumWeb-Regular', serif;
+  font-size:30px;
+  font-weight:500;
+  //text-shadow: 4px 4px 4px #aaa;
+  line-height:30px;
+} 
+.fonttangerine-medium{
+  font-family: 'TitilliumWeb-Regular', serif;
+  font-size:40px;
+  text-shadow: 3px 3px 3px #aaa;
+}   
+
+.timeline {
+    list-style-type: none;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 0px;
+}
+
+.li {
+    transition: all 200ms ease-in;
+}
+
+.timestamp {
+    margin-bottom: 0px;
+    padding: 0px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 100;
+}
+
+.li.complete .status {
+    border-top: 2px solid #ddd;
+}
+
+.status {
+    padding: 0px 10px;
+    /* display: flex; */
+    justify-content: center;
+    border-top: 2px solid #D6DCE0;
+    position: relative;
+    transition: all 200ms ease-in;
+}
+
+.li.complete .status h4 {
+    color: #222;
+    margin-top: 16px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.status h4 {
+    font-weight: 600;
+}
+
+.li.complete .status:before {
+   /* background-color: #ddd;*/
+    border: none;
+    transition: all 200ms ease-in;
+	/* background-image:url('../images/favicon.ico');*/
+	background-size:20px;
+	background-repeat:no-repeat;
+	background-position:top;
+	top:-24px;
+	transform: rotate(0deg); 
+}
+
+.status:before {
+    content: '';
+    width: 45px;
+    height: 25px;
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    position: absolute;
+    top: -15px;
+    left: 41%;
+    transition: all 200ms ease-in;
+}
+
+.locationBox1 {
+    /* margin: 18px 0px; */
+    /* margin-top: 65px; */
+}
+
+.locationBox1 .location-icon {
+    color: #fff;
+    font-size: 50px;
+    width: 50px;
+    height: 65px;
+    line-height: 120px;
+    margin: 0 auto 5px;
+    display: block;
+    position: relative;
+}
+
+.locationBox1 .location-icon:before {
+    content: "";
+    /* background: linear-gradient(to right,#d3ad37 49%,#d5b659 50%); */
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 10px 10px;
+    /* box-shadow: 0 0 0 5px #fff inset; */
+    /* border: 5px solid #222222; */
+    border-right: none;
+    border-top: none;
+    transform: rotate(0deg);
+    background: #fff;
+    position: absolute;
+    box-shadow: 3px 3px 10px #222222;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all 0.5s ease 0s;
+}
+
+.location-icon span {
+    color: #1fae58;
+    font-size: 36px;
+    width: 36px;
+    height: 36px;
+    line-height: 52px;
+    /* margin: 0 auto 40px; */
+    /* display: block; */
+    position: relative;
+    z-index: 1;
+    top: -33px;
+}	
+  #map{
+	height: 450px;
+	width: 100%;  
+   }
+   
+.form-control1 {
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem 1.00rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.iconcss{
+	font-size:75px; 
+	color:#ddd; 
+	padding:5px;
+	//background-color:#eee;
+}
+.rounded-circle1{
+	border-radius: 10%!important;
+}
+.modal-body input{
+		margin:15px;
+		height:40px;
+		width:85% !important;
+		margin-left:0px;
+	}
+.modal-body, .modal-footer {
+    background: #ccc;
+	padding-left:30px;
+}	
+.modal-body i{
+	height:40px;
+	width:40px;
+}
+
+@media only screen and (max-width: 767px){
+.timeline {
+    list-style-type: none;
+    display: grid;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 0px;
+	/*overflow:hidden;*/
+}
+.tbl-holder {
+    /*overflow: hidden;*/
+}
+h2{
+	font-size:1.1rem;
+}	
+.modal-body input{
+		margin:5px;
+		height:30px;
+		width:80% !important;
+		margin-left:0px;
+	}
+.modal-body i{
+	height:30px;
+	width:30px;
+}	
+.navbar-collapse {
+background: #D86D12;
+margin: -.5rem -1rem;
+padding: .5rem 1rem;
+}
+}
+
+.artistic-impression {
+    position: absolute;
+    top:15px;
+    right:15px;
+    background-color: rgba(128, 128, 128, 0.5); /* Grey background with transparency */
+    padding: 2px 20px; /* Adjust padding as needed */
+    color: white; /* Text color */
+    font-size: 12px; /* Adjust font size as needed */
+	 line-height: 1; /* Ensure the text fits tightly within the padding */
+    z-index: 1; /* Ensure the text is above the image */
+	
+	
+}
+.artistic-impression-master {
+    position: absolute;
+    top:40px;
+    left:15px;
+    background-color: rgba(128, 128, 128, 0.5); /* Grey background with transparency */
+    padding: 2px 20px; /* Adjust padding as needed */
+    color: white; /* Text color */
+    font-size: 12px; /* Adjust font size as needed */
+	 line-height: 1; /* Ensure the text fits tightly within the padding */
+    z-index: 1; /* Ensure the text is above the image */
+	
+}
+
+.artistic-impression-banner1 {
+    position: absolute;
+    top:40px;
+    left:0px;
+    background-color: rgba(128, 128, 128, 0.5); /* Grey background with transparency */
+    padding: 2px 20px; /* Adjust padding as needed */
+    color: white; /* Text color */
+    font-size: 20px; /* Adjust font size as needed */
+	 line-height: 1; /* Ensure the text fits tightly within the padding */
+    z-index: 1; /* Ensure the text is above the image */
+	
+}
+
+.artistic-impression-banner1-m {
+    position:absolute;
+    top:30px;
+    left:0px;
+    background-color: rgba(128, 128, 128, 0.5); /* Grey background with transparency */
+    padding: 2px 20px; /* Adjust padding as needed */
+    color: white; /* Text color */
+    font-size: 12px; /* Adjust font size as needed */
+	 line-height: 1; /* Ensure the text fits tightly within the padding */
+    z-index: 1; /* Ensure the text is above the image */
+	
+}
