@@ -15,7 +15,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16458361345"></script>
-<script type="text/javascript" src="https://s3.ap-south-1.amazonaws.com/anarock.misc/form.js" async defer></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -199,19 +198,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="container-fluid">
 <div class="row justify-content-center" style="padding-top:50px;"><Br><Br>
 <div class="col-lg-11 col-md-11 col-sm-12">	
-<!--div class="sticky-top position-absolute text-center" style="top:135px; color:#c3945d; background-color:rgba(0, 0, 0, 0.3); padding:5px;">
-<img src="assets/images/offer.png" width="150px;">
-</div-->	
+
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-	<!--li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li-->
 
   </ol>
   <div class="carousel-inner" style="position:relative !important; margin-top:60px;">	
-<!--div class="sticky-top position-absolute text-center" style="top:5px; color:#c3945d; background-color:rgba(0, 0, 0, 0.3); padding:5px;">
-<img src="assets/images/promo.png" width="150px;">
-</div-->
+
     <div class="carousel-item  active">
 		<div class="d-none d-lg-block d-md-block d-sm-none d-xs-none">
 		  <img class="w-100" src="images/banner1.jpg" alt="First slide"><!--div class="artistic-impression-banner1">Artistic Impression</div-->
@@ -219,48 +213,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="d-lg-none d-md-none d-sm-block d-xs-block">	
 		  <img class="w-100 zoomimg" src="images/banner1-m.jpg" alt="First slide"><!--div class="artistic-impression-banner1-m">Artistic Impression</div-->
 		</div>  
-		  <!--div class="carousel-caption" style="background: rgba(000, 54, 54, 0.4); bottom:0px;">
-			<h2 STYLE="COLOR:#FFF">Studio, 2 BHK & 3 BHK</h2>
-		  </div-->	  
+		   
     </div>	  
-    <!--div class="carousel-item ">
-		<div class="d-none d-lg-block d-md-block d-sm-none d-xs-none">
-		  <img class="w-100" src="images/banner2.jpg" alt="First slide">
-		</div>
-		<div class="d-lg-none d-md-none d-sm-block d-xs-block">	
-		  <img class="w-100 zoomimg" src="images/banner2-m.jpg" alt="First slide">
-		</div>  
-    </div-->		
+		
   </div>
-  <!--a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a-->
+
 </div>
 </div>
 </div>	
 
-	<div class="row  justify-content-center">
-	<div class="col-lg-12 col-md-12 text-center" style="background-color:#fff;">
-		<!--h2 style="padding-top:10px;color:#000; font-size:1.5em !important; font-weight:600; margin-bottom:-20px;" class="ml2"> <BR>1 BHK, 2 BHK & 3 BHK</h2><br-->
-		<!--small style="color:#fff; font-size:1.2rem;"> &#8741;&nbsp; Market price - 8500 / sq.ft | Festive price - 7900 /sq.ft (save upto Rs. 20 Lacs.)&nbsp; &#8741;</small><br-->
-		<!--div class="d-none d-lg-block d-md-block d-sm-none d-xs-none"><small  style="color:#000; font-size:1.4rem;font-weight:500;"> &#8741;&nbsp; Starting from &#8377;  32.5 Lakhs* &nbsp; &#8741;</small><br></div-->
-		<!--div class="d-lg-none d-md-none d-sm-block d-xs-block" ><small style="color:#000; font-size:1.4rem;font-weight:500;"> &#8741;&nbsp; Starting from &#8377;  32.5 Lakhs* </small><br></div-->
-		<!--small style="color:#000; font-size:1.4rem;"><i class="fa fa-map-marker" aria-hidden="true"></i>&nbsp; <b>Bagalur, North Bengaluru.</b></small><Br-->
-		<!--small style="color:#fff; font-size:1.4rem; font-weight:500;">&nbsp;RO Received, Immediate Registration</small-->
-		
-	</div>	
-	</div>
-	<!--div class="row  justify-content-center">
-	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-center">
-		<div class="alert alert-success blink"><blink>Exclusive offer (Price Including Registration, Club Membership & Maintenance for 2 yrs)</blink></div>
-		<div class="ml2 text-secondary" style="font-size:1.5em;">Off Bannergatta Road</div>
-	</div>
-	</div-->
 </div>	
 </section>
 <br>
@@ -277,7 +238,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div>
 	
 	<div class="col-lg-6 col-md-6 col-sm-12" style="padding:25px;"><Br>
-		<!--p class="fonttangerine-big">Vaswani Exquisite – A piece of sky, in the palm of your hand</p><Br>
 		<p>This is what life at the top looks like. The morning sun streams into your bedroom. Brunch by the lake, right on your balcony. Swathes of green, as far as the eye can see. Clouds in your coffee. You got to the top by sheer dint of your hard work. Now, set your standards sky-high for the home you deserve.</p>
 		<p>Vaswani Exquisite is your place in the sky. It’s your answer to living right in the middle of the city’s action but elevated above it all. It’s Zen in an apartment!</p><br-->
 		<p class="fonttangerine-big">Welcome to a <b>LIFE OF DISTINCTION</b></p><Br>
@@ -285,7 +245,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		Welcome to <b>MJR North Park</b>, , where every moment is an elevated living experience. A realm where the evening stars illuminate your doorstep, the clouds become cherished neighbours and the city’s pulse effortlessly blends with the song of nature. With sprawling sky gardens and state-of-the-art amenities creating a breathtaking sky community nestled in the heart of Bagalur, MJR North Park offers you more than just a dream home - it’s the perfect opportunity to elevate your lifestyle, offering more than you ever imagined possible. 
 		</p>
 		
-		<!--p>When you live in Vaswani Exquisite, unmatched luxury meets uncompromising connectivity. Located on ITPL Main Road in Whitefield, these spectacular apartments offer world-class amenities for an ultra-fine living experience with proximity to the best schools, hospitals, metro stations, shopping malls  and offices all within a 5-minute walking distance.</p-->
 	</div>
 </div>
 </div>
@@ -299,17 +258,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<p>
 	With one tower and two blocks gracefully standing, <b>MJR North Park</b>  offers 354 meticulously crafted living spaces. From cosy studio apartments to spacious 2 and 3 BHK homes, each unit caters to every facet of your lifestyle.
 	</p>
-	<!--p>	
-		Quiet spaces in your apartment complex clubhouse that are conducive to work. Away from the clatter of cutlery or the screams of squabbling siblings. You can choose to work all day from home, or just take the odd conference call, without any of the familiar interruptions that technology or people can bring!<br><Br>
 
-		<span style="font-weight:600;">Vaswani HomeworX</span> will make your life better in so many ways, but here are the top three:<br>
-
-		<span style="font-weight:600;">Save Space</span>  – HomeworX saves you the trouble (and the space!) of setting up a home office. You can just pop down to the work-friendly clubhouse to finish a bit of work or take a meeting.<br>
-		<span style="font-weight:600;">Be Close</span>  – You can do a spot of work late in the evening, reassured by the knowledge that the kids are just minutes away. Pop back home for dinner, tuck them into bed, and get back to work if you need to. <br>
-		<span style="font-weight:600;">Work Smart</span>  – Away from the worries of the home – and yet within hollering distance – HomeworX will allow you to focus on your work, and get it done much faster. Double the work, in half the time!<Br><br>
-		Enjoy the luxury of uninterrupted modern workspaces from the convenience of your very own community with Vaswani HomeworX		
-	
-	</p-->
 	</div>
 	<div class="col-lg-6 col-md-6 col-sm-12 text-center">
 		<img src="images/about-2.png" class="img-fluid" style="width:100%;">
@@ -329,18 +278,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<p>
 	With one tower and two blocks gracefully standing, <b>MJR North Park</b>  offers 354 meticulously crafted living spaces. From cosy studio apartments to spacious 2 and 3 BHK homes, each unit caters to every facet of your lifestyle.
 	</p>
-	<!--p class="fonttangerine-big">Vaswani HomeworX – The New Age Clubhouse. </p-->
-	<!--p>	
-		Quiet spaces in your apartment complex clubhouse that are conducive to work. Away from the clatter of cutlery or the screams of squabbling siblings. You can choose to work all day from home, or just take the odd conference call, without any of the familiar interruptions that technology or people can bring!<br><Br>
-
-		<span style="font-weight:600;">Vaswani HomeworX</span> will make your life better in so many ways, but here are the top three:<br>
-
-		<span style="font-weight:600;">Save Space</span>  – HomeworX saves you the trouble (and the space!) of setting up a home office. You can just pop down to the work-friendly clubhouse to finish a bit of work or take a meeting.<br>
-		<span style="font-weight:600;">Be Close</span>  – You can do a spot of work late in the evening, reassured by the knowledge that the kids are just minutes away. Pop back home for dinner, tuck them into bed, and get back to work if you need to. <br>
-		<span style="font-weight:600;">Work Smart</span>  – Away from the worries of the home – and yet within hollering distance – HomeworX will allow you to focus on your work, and get it done much faster. Double the work, in half the time!<Br><br>
-		Enjoy the luxury of uninterrupted modern workspaces from the convenience of your very own community with Vaswani HomeworX		
 	
-	</p-->
 	</div>
 
 </div>
@@ -378,20 +316,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<button type="button" class="buttoncolor" data-toggle="modal" data-target="#price" style="padding: 15px !important; background-color: #17a2b8; color:#fff; border : 3px;">Ask Price</button>
 					</td>
 				</tr>			
-			   <!--tr>
-					<td scope="row" style="padding-left:20px;">2 BHK</td>
-					<td>1050-1100 Sq.ft.</td>					
-					<td class="text-center">
-						<button type="button" class="buttoncolor" data-toggle="modal" data-target="#price" style="padding: 15px !important; background-color: #17a2b8; color:#fff; border : 3px;">Ask Price</button>
-					</td>
-				</tr>
-			   <tr>
-					<td scope="row" style="padding-left:20px;">2.5 BHK</td>
-					<td>1340 Sq.ft.</td>					
-					<td class="text-center">
-						<button type="button" class="buttoncolor" data-toggle="modal" data-target="#price" style="padding: 15px !important; background-color: #17a2b8; color:#fff; border : 3px;">Ask Price</button>
-					</td>
-				</tr-->	
+		
 			   <tr>
 					<td scope="row" style="padding-left:20px;">3 BHK</td>
 					<td>1596 Sq.ft.</td>					
@@ -534,61 +459,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>		
 	</div><br>
 	
-	<!--div class="row">
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<a href="images/gallery/01.jpg" data-lightbox="gallery"><img class="img-fluid" src="images/gallery/01.jpg" loading="lazy" width="100%"></a>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<a href="images/gallery/02.jpg" data-lightbox="gallery"><img class="img-fluid" src="images/gallery/02.jpg" loading="lazy" width="100%"></a>
-		</div>	
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<a href="images/gallery/03.jpg" data-lightbox="gallery"><img class="img-fluid" src="images/gallery/03.jpg" loading="lazy" width="100%"></a>
-		</div>		
-	</div><br>	
-	<div class="row">
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<a href="images/gallery/04.jpg" data-lightbox="gallery"><img class="img-fluid" src="images/gallery/04.jpg" loading="lazy" width="100%"></a>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<a href="images/gallery/05.jpg" data-lightbox="gallery"><img class="img-fluid" src="images/gallery/05.jpg" loading="lazy" width="100%"></a>
-		</div>	
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<a href="images/gallery/06.jpg" data-lightbox="gallery"><img class="img-fluid" src="images/gallery/06.jpg" loading="lazy" width="100%"></a>
-		</div>		
-	</div><br>
-	<div class="row">
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<a href="images/gallery/07.jpg" data-lightbox="gallery"><img class="img-fluid" src="images/gallery/07.jpg" loading="lazy" width="100%"></a>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<a href="images/gallery/08.jpg" data-lightbox="gallery"><img class="img-fluid" src="images/gallery/08.jpg" loading="lazy" width="100%"></a>
-		</div>	
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<a href="images/gallery/09.jpg" data-lightbox="gallery"><img class="img-fluid" src="images/gallery/09.jpg" loading="lazy" width="100%"></a>
-		</div>		
-	</div><br>	
-	<div class="row">
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<a href="images/gallery/10.jpg" data-lightbox="gallery"><img class="img-fluid" src="images/gallery/10.jpg" loading="lazy" width="100%"></a>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<a href="images/gallery/11.jpg" data-lightbox="gallery"><img class="img-fluid" src="images/gallery/11.jpg" loading="lazy" width="100%"></a>
-		</div>	
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<a href="images/gallery/12.jpg" data-lightbox="gallery"><img class="img-fluid" src="images/gallery/12.jpg" loading="lazy" width="100%"></a>
-		</div>		
-	</div><br>
-	<div class="row">
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<a href="images/gallery/13.jpg" data-lightbox="gallery"><img class="img-fluid" src="images/gallery/13.jpg" loading="lazy" width="100%"></a>
-		</div>
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<a href="images/gallery/14.jpg" data-lightbox="gallery"><img class="img-fluid" src="images/gallery/14.jpg" loading="lazy" width="100%"></a>
-		</div>	
-		<div class="col-lg-4 col-md-4 col-sm-12">
-			<a href="images/gallery/15.jpg" data-lightbox="gallery"><img class="img-fluid" src="images/gallery/15.jpg" loading="lazy" width="100%"></a>
-		</div>		
-	</div><br-->	
 </div>	
 </section> 
 
@@ -604,44 +474,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>	
 	</div>
 
-	<!--marquee behavior="alternate" direction="left" scrollamount="5">
-	<div style="position: relative; display:inline-block;">
-		<img src="images/amenities/amenities1.jpg" style="height:300px;">
-		<div style="  position: absolute; bottom: 8px; left: 16px; background-color:#1fae58; color:#fff; padding:0px 10px 0px 10px;"><div class="text-white">GYM</div></div>
-	</div>
-	<div style="position: relative; display:inline-block;">
-		<img src="images/amenities/amenities2.jpg" style="height:300px;">
-		<div style="  position: absolute; bottom: 8px; left: 16px; background-color:#1fae58; color:#fff; padding:0px 10px 0px 10px;"><div class="text-white">BADMINTON</div></div>
-	</div>
-	<div style="position: relative; display:inline-block;">
-		<img src="images/amenities/amenities3.jpg" style="height:300px;">
-		<div style="  position: absolute; bottom: 8px; left: 16px; background-color:#1fae58; color:#fff; padding:0px 10px 0px 10px;"><div class="text-white">CHILDREN PARK</div></div>
-	</div>
-	<div style="position: relative; display:inline-block;">
-		<img src="images/amenities/amenities4.jpg" style="height:300px;">
-		<div style="  position: absolute; bottom: 8px; left: 16px; background-color:#1fae58; color:#fff; padding:0px 10px 0px 10px;"><div class="text-white">SWIMMING POOL</div></div>
-	</div>
-	<div style="position: relative; display:inline-block;">
-		<img src="images/amenities/amenities5.jpg" style="height:300px;">
-		<div style="  position: absolute; bottom: 8px; left: 16px; background-color:#1fae58; color:#fff; padding:0px 10px 0px 10px;"><div class="text-white">BASKETBALL COURT</div></div>
-	</div>
-	<div style="position: relative; display:inline-block;">
-		<img src="images/amenities/amenities6.jpg" style="height:300px;">
-		<div style="  position: absolute; bottom: 8px; left: 16px; background-color:#1fae58; color:#fff; padding:0px 10px 0px 10px;"><div class="text-white">WORKSPACE</div></div>
-	</div>
-	<div style="position: relative; display:inline-block;">
-		<img src="images/amenities/amenities7.jpg" style="height:300px;">
-		<div style="  position: absolute; bottom: 8px; left: 16px; background-color:#1fae58; color:#fff; padding:0px 10px 0px 10px;"><div class="text-white">GARDEN</div></div>
-	</div>
-	<div style="position: relative; display:inline-block;">
-		<img src="images/amenities/amenities8.jpg" style="height:300px;">
-		<div style="  position: absolute; bottom: 8px; left: 16px; background-color:#1fae58; color:#fff; padding:0px 10px 0px 10px;"><div class="text-white">POOL TABLE</div></div>
-	</div>
-	<div style="position: relative; display:inline-block;">
-		<img src="images/amenities/amenities9.jpg" style="height:300px;">
-		<div style="  position: absolute; bottom: 8px; left: 16px; background-color:#1fae58; color:#fff; padding:0px 10px 0px 10px;"><div class="text-white">PARK</div></div>
-	</div>
-	</marquee-->
+
 	
 <Br><br><br>
 	<div class="row">
@@ -728,52 +561,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 
-
-<!--section class="sectiongap" id="walkthrough"><br>
-<div class="container">
-	<div class="row">
-		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
-		<h2 class=" wow slideInDown headertext">PROJECT VIDEO</h2>
-		<div class="linebreak img-fluid text-center" style="display:relative;"></div>
-		</div>	
-	</div>
-	<div class="row justify-content-center" style="text-align: center;">
-		<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-center headertext centered-thing">
-			<iframe class="headertext text-center" width="100%" height="600" src="https://www.youtube.com/embed/c3JpE5EF04Y"></iframe>
-		</div>	
-	</div>	
-</div>
-</section-->
-
-<!--section id="plan" class="" style="padding:40px 0 40px 0; background-color:#f6f6f6;">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-12 text-center">
-				<h2 class=" wow slideInDown headertext">KEY PLAN</h2>
-				<div class="linebreak img-fluid text-center" style="display:relative;"></div>
-			</div>			
-		</div>
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 card">
-				<div class="card card-info">
-				<a href="images/plans/master-plan.jpg" data-lightbox="plans"><img class="img-fluid" src="images/plans/master-plan.jpg" loading="lazy" width="100%"></a>
-				</div>
-			</div>		
-		</div>
-	</div>
-	<br>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-sm-12 card">
-				<div class="card card-info">
-				<a href="images/plans/B3-3-BHK-1815-1.jpg" data-lightbox="plans"><img class="img-fluid" src="images/plans/B3-3-BHK-1815-1.jpg" loading="lazy" width="100%"></a>
-				</div>
-			</div>		
-		</div>
-	</div><br>	
-</section-->
-
-
 <section id="location"> <br><Br>
 	<div class="container">
 		<div class="row justify-content-center">
@@ -800,163 +587,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div><br>
 </section>
 
-
-<!--section class="sectiongap" id="connectivity" style="background-color:#F5F5F5;"><Br><Br>
-        <div class="">
-            <div class="container text-center">
-                <p class="wow slideInDown headertext">Connectivity</p>
-				pls provide connectivity info
-            <div class="section-subtitle relative" style="color: #fff;">
-                    <div style="display:relative;">
-						<div class="linebreak img-fluid text-center" style="display:relative;"></div>
-					</div>
-            </div>
-				
-                <div style="text-align: center;" class="col-md-12 tbl-holder">
-                    <ul class="timeline" id="timeline">
-
-                        <li class="li complete">
-                            <div class="timestamp">
-                                <div class="locationBox1">
-                                    <div class="location-icon">
-                                        <span class="flaticon-gate"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="status">
-							<h4>Reva <br>University</h4>
-							<h4>15 mins</h4>
-                            </div>
-                        </li>			
-                        <li class="li complete">
-                            <div class="timestamp">
-                                <div class="locationBox1">
-                                    <div class="location-icon">
-                                        <span class="flaticon-mall"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="status">
-							<h4>Ryan <br>Int'l School</h4>
-							<h4>15 mins</h4>
-                            </div>
-                        </li>
-						
-                        <li class="li complete">
-                            <div class="timestamp">
-                                <div class="locationBox1">
-                                    <div class="location-icon">
-                                        <span class="flaticon-school"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="status">
-							<h4>Phoenix Mall  <br> of Asia </h4>
-							<h4>25 mins</h4>
-                            </div>
-                        </li>
-                        <li class="li complete">
-                            <div class="timestamp">
-                                <div class="locationBox1">
-                                    <div class="location-icon">
-                                        <span class="flaticon-school"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="status">
-							<h4>Aster CMI <Br>Hospital</h4>
-							<h4>30 mins</h4>
-                            </div>
-                        </li>		
-                        <li class="li complete">
-                            <div class="timestamp">
-                                <div class="locationBox1">
-                                    <div class="location-icon">
-                                        <span class="flaticon-school"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="status">
-							<h4>Manyata <br>Tech Park </h4>
-							<h4>30 mins</h4>
-                            </div>
-                        </li>		
-                        <li class="li complete">
-                            <div class="timestamp">
-                                <div class="locationBox1">
-                                    <div class="location-icon">
-                                        <span class="flaticon-school"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="status">
-							<h4>Kempegowda <br>Int'l Airport </h4>
-							<h4>15 mins</h4>
-                            </div>
-                        </li>						
-                    </ul>
-
-
-                </div>
-            </div>
-        </div><br><Br>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-4 col-sm-12">
-				</div>
-			</div>
-		</div>
-</section-->
-
-
-<!--section id="" style="background-image:url('images/sectionback.jpg');"> <br><Br>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-12 text-center text-white">
-				<h2 class=" wow slideInDown headertext">North Bengaluru The Future Of Investments.</h2><Br><Br>
-				<p class="d-none d-lg-block d-md-block d-sm-none d-xs-none text-white" align="center" style="font-size:1.4em;"> <img src="images/linenew.png"> &nbsp;  Be at the Forefront of Science, Technology & Innovation&nbsp;<img src="images/linenew.png"></p>
-				<p class="d-lg-none d-md-none d-sm-block d-xs-block text-white" align="center" style="font-size:1.2em;">  Be at the Forefront of Science, Technology & Innovation</p>
-			</div>			
-		</div>
-		<div class="row text-white" style="font-size:1.3rem;">
-			<div class="col-lg-6 col-md-6 col-sm-12 ">
-				PRR (Peripheral Ring Road):<br>
-				&bull;&nbsp;&nbsp;&nbsp; The proposed 65km Peripheral Ring road provide a faster alternative route to reach Airport road corridor frm Electonic city,Sarjapur Road & KR Puram.<br><br>
-
-				METRO:<br>
-				&bull;&nbsp;&nbsp;&nbsp; Connects from Hebbal to BIAL.
-			</div>			
-			<div class="col-lg-6 col-md-6 col-sm-12">
-				SEZ:<Br>
-				&bull;&nbsp;&nbsp;&nbsp; 1st Phase of 215 Acres aerocity coming up in Devanahalli with High tech Infrastrucuture.<Br>
-				&bull;&nbsp;&nbsp;&nbsp; 1.5Millin sq ft IT-cum- Shopping complex in Yelahanka.<Br>
-				&bull;&nbsp;&nbsp;&nbsp; Various international 5-Star hotels are coming up in the area.<br>
-				&bull;&nbsp;&nbsp;&nbsp; Premium 8-Lane National Highway coming up for greater connectivity.<Br>
-				&bull;&nbsp;&nbsp;&nbsp; 100 Acres KIADB Industriall hub.
-			</div>			
-
-		</div><Br>
-	</div><br>
-</section-->
-
-<!--section id="about" style="background-image:url('images/sectionback.jpg');"> <br><Br>
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-12 col-md-12 col-12 text-center text-white">
-				<h2 class=" wow slideInDown headertext">About Developer</h2><Br><Br>
-				<img src="images/group-logo.svg" style="width:100px;">
-			</div>			
-		</div><br>
-		<div class="row text-white" style="font-size:1.3rem;">
-			<div class="col-lg-12 col-md-12 col-sm-12 text-center">
-				<h2>Over the last 33 years, we have developed residential and commercial real estate across Bangalore, Mumbai, Pune and Goa.</h2><br>
-				<p style="color:#fff;">
-					In 1985, we embarked on a journey to offer global-standard residential solutions for the discerning home buyer as well as turnkey commercial solutions for Indian and multinational firms. From resplendent housing to upscale commercial, our equity is strengthened with a proven and credible track record having developed close to 8 million square feet of built up area in the verticals of Residential, Commercial, Retail and Hospitality. We are committed to constantly refining our skills with an ever present emphasis on transparency.
-				</p>
-			</div>					
-		</div><Br>
-	</div><br>
-</section-->
 
 
         <footer id="footer" class="wow d-none d-lg-block d-md-block d-sm-none d-xs-none" style="color:#fff; background-color:#17a2b8;"><br>
@@ -1009,29 +639,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <br>
 <div class="container">
 <div class="row fixed-bottom fixed-left position-fixed">	
-	<!--div class="col-6 text-left">
-			<a class="btn" href="https://api.whatsapp.com/send/?phone=919108447153&amp;text=Hi%21+I%27m+interested+in+Vaswani+Exquisite+Thanks%21&amp;app_absent=0" target="_blank" style="padding:5px;"><img src="images/whatsapp-img.png" width="50px"></a>
-	</div-->
+	
 	<div class="col-12 text-right">
 			<button type="button" class="btn border-animation" data-toggle="modal" data-target="#iaminterested" style="font-size:1.2rem;  background-color: #17a2b8; color: #fff; padding:10px;">I am Interested</button>
 	</div>
 </div>
 </div>
 
-<!--section class="fixed-bottom fixed-right position-fixed" >
-	<div class="container-fluid">
-	<div class="row">
-		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-left">
-			one
-			<a class="btn btn-info" href="https://api.whatsapp.com/send/?phone=919606772699&amp;text=Hi%21+I%27m+interested+in+Samanvaya+Lotus+Lea+Thanks%21&amp;app_absent=0" target="_blank"><img src="images/whatsapp-img.png" width="25px"></a>
-		</div>
-		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">
-			two
-			<button type="button" class="btn border-animation" data-toggle="modal" data-target="#iaminterested" style="font-size:1.2rem;  background-color: #1fae58; color: #fff; padding:10px;">I am Interested</button>
-		</div>		
-	</div>
-	</div>|
-</section-->
 
 <!-- form start schedule site visit-->
 <form name="contact-form" action="thankyou.php" method="POST">
@@ -1045,7 +659,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </button>
       </div>
       <div class="modal-body">
-	  	<div id="anarock-form"></div>
+	  	<div id="anarock-form2"></div>
       </div>
     
     </div>
@@ -1068,7 +682,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="modal-body">
 			
-	  	<div id="anarock-form"></div>
+	  	<div id="anarock-form1"></div>
 			
       </div>
     </div>
@@ -1091,11 +705,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="modal-body">
 	  	<div id="anarock-form"></div>
       </div>
-      <!-- <div class="modal-footer text-left" style="justify-content: flex-start">
-		<button type="submit" class="btn themebackground text-white" id="button-interested">SEND</button>
-        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-		&nbsp;<i class="fas fa-spinner fa-spin fa-2x text-info" style="display:none;"></i>&nbsp;<span id="result-int" style="color:#fff;"></span>
-      </div> -->
+    
     </div>
   </div>
 </div>
@@ -1173,16 +783,39 @@ function blink_text() {
 setInterval(blink_text, 2000);
 </script>
 
+
+<script type="text/javascript" src="https://s3.ap-south-1.amazonaws.com/anarock.misc/form.js" async defer></script>
+
 <script>
-	var form_container = document.getElementById('anarock-form')
-	window.anarockForms = [{
-		container: form_container,
-		key: "97548e3de8f0d07c",
-		channel_name: "LandingPage",
-		campaign_id: "mjr_lp",
-		env: "production",
-		options: {} // options as described below
-	}]
+		var form_container = document.getElementById('anarock-form')
+		var form_container1 = document.getElementById('anarock-form1')
+		var form_container2 = document.getElementById('anarock-form2')
+		window.anarockForms = [
+			{
+			container: form_container,
+			key: "97548e3de8f0d07c",
+			channel_name: "LandingPage",
+			campaign_id: "mjr_lp",
+			env: "production",
+			options: {} // options as described below
+			},
+			{
+			container: form_container1,
+			key: "97548e3de8f0d07c",
+			channel_name: "LandingPage",
+			campaign_id: "mjr_lp",
+			env: "production",
+			options: {} // options as described below
+			},
+			{
+			container: form_container2,
+			key: "97548e3de8f0d07c",
+			channel_name: "LandingPage",
+			campaign_id: "mjr_lp",
+			env: "production",
+			options: {} // options as described below
+			},
+	]
 </script>
 
 <?php

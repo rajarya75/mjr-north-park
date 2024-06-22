@@ -263,15 +263,14 @@ p{
 .rounded-circle1{
 	border-radius: 10%!important;
 }
-.modal-body input{
+/* .modal-body input{
 		margin:15px;
 		height:40px;
 		width:85% !important;
 		margin-left:0px;
-	}
+	} */
 .modal-body, .modal-footer {
-    background: #ccc;
-	padding-left:30px;
+    background: #ffffff;
 }	
 .modal-body i{
 	height:40px;
