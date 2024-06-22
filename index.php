@@ -15,6 +15,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16458361345"></script>
+<script type="text/javascript" src="https://s3.ap-south-1.amazonaws.com/anarock.misc/form.js" async defer></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -1044,27 +1045,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </button>
       </div>
       <div class="modal-body">
-				<p>Please enter details below:</p>	
-				<span class="form-inline">
-					<i class="fa fa-user form-ico input-group-text" aria-hidden="true"></i><input type="text" id="username-sitevisit" name="username" class="form-control" placeholder="Your Name" required>	
-				</span>
-				<span class="form-inline">
-					<i class="fa fa-phone form-ico input-group-text" aria-hidden="true"></i><input type="text" id="userphone-sitevisit" name="userphone" class="form-control" placeholder="Your Phone" required>
-				</span>
-				<span class="form-inline">
-					<i class="fa fa-envelope form-ico input-group-text" aria-hidden="true"></i><input type="email" id="useremail-sitevisit" name="useremail" class="form-control" placeholder="Your Email" required>
-				</span>
-				<span class="form-inline">
-					<i class="fa fa-calendar form-ico input-group-text" aria-hidden="true"></i><input type="date" id="userdate-sitevisit" name="userdate" class="form-control" placeholder="dd-mm-yyyy" value="2021-01-01">
-				</span>				
-				<input type="hidden" id="userfrom" name="userfrom" class="form-control1" value="sitevisit">	
-				<input type="hidden" id="querystring" name="querystring" value="<?php echo $_SERVER['QUERY_STRING']; ?>">
+	  	<div id="anarock-form"></div>
       </div>
-      <div class="modal-footer" style="justify-content: flex-start">
-		<button type="submit" class="btn themebackground text-white" id="button-sitevisit">SEND</button>
-        <!--button type="button" class="btn btn-danger" data-dismiss="modal">Close</button-->
-		&nbsp;<i class="fas fa-spinner fa-spin fa-2x text-info" style="display:none;"></i>&nbsp;<span id="result-sitevisit" style="color:#fff;"></span>
-      </div>
+    
     </div>
   </div>
 </div>
@@ -1085,23 +1068,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
       <div class="modal-body">
 			
-				<span class="form-inline">
-					<i class="fa fa-user form-ico input-group-text" aria-hidden="true"></i><input type="text" id="username-price" name="username" class="form-control" placeholder="Your Name" required>	
-				</span>
-				<span class="form-inline">
-					<i class="fa fa-mobile form-ico input-group-text" aria-hidden="true"></i><input type="text" id="userphone-price" name="userphone" class="form-control" placeholder="Your Phone" required>
-				</span>
-				<span class="form-inline">
-					<i class="fa fa-envelope form-ico input-group-text" aria-hidden="true"></i><input type="email" id="useremail-price" name="useremail" class="form-control" placeholder="Your Email" required>
-				</span>
-				<input type="hidden" id="userfrom" name="userfrom" class="form-control1" value="price">
-				<input type="hidden" id="querystring" name="querystring" value="<?php echo $_SERVER['QUERY_STRING']; ?>">
+	  	<div id="anarock-form"></div>
 			
-      </div>
-      <div class="modal-footer text-left" style="justify-content: flex-start">
-		<button type="submit" class="btn themebackground text-white" id="button-price">SEND</button>
-        <!--button type="button" class="btn btn-danger" data-dismiss="modal">Close</button-->
-		&nbsp;<i class="fas fa-spinner fa-spin fa-2x text-info" style="display:none;"></i>&nbsp;<span id="result-price" style="color:#fff;"></span>
       </div>
     </div>
   </div>
@@ -1121,23 +1089,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </button>
       </div>
       <div class="modal-body">
-				<span class="form-inline">
-					<i class="fa fa-user form-ico input-group-text" aria-hidden="true"></i><input type="text" id="username-interested" name="username" class="form-control" placeholder="Your Name" required>	
-				</span>
-				<span class="form-inline">
-					<i class="fa fa-phone form-ico input-group-text" aria-hidden="true"></i><input type="text" id="userphone-interested" name="userphone" class="form-control" placeholder="Your Phone" required>
-				</span>
-				<span class="form-inline">
-					<i class="fa fa-envelope form-ico input-group-text" aria-hidden="true"></i><input type="email" id="useremail-interested" name="useremail" class="form-control" placeholder="Your Email" required>
-				</span>
-				<input type="hidden" id="userfrom" name="userfrom" class="form-control1" value="interested">
-				<input type="hidden" id="querystring" name="querystring" value="<?php echo $_SERVER['QUERY_STRING']; ?>">
+	  	<div id="anarock-form"></div>
       </div>
-      <div class="modal-footer text-left" style="justify-content: flex-start">
+      <!-- <div class="modal-footer text-left" style="justify-content: flex-start">
 		<button type="submit" class="btn themebackground text-white" id="button-interested">SEND</button>
-        <!--button type="button" class="btn btn-danger" data-dismiss="modal">Close</button-->
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
 		&nbsp;<i class="fas fa-spinner fa-spin fa-2x text-info" style="display:none;"></i>&nbsp;<span id="result-int" style="color:#fff;"></span>
-      </div>
+      </div> -->
     </div>
   </div>
 </div>
@@ -1213,6 +1171,18 @@ function blink_text() {
     $('.blink').fadeIn(500);
 }
 setInterval(blink_text, 2000);
+</script>
+
+<script>
+	var form_container = document.getElementById('anarock-form')
+	window.anarockForms = [{
+		container: form_container,
+		key: "97548e3de8f0d07c",
+		channel_name: "LandingPage",
+		campaign_id: "mjr_lp",
+		env: "production",
+		options: {} // options as described below
+	}]
 </script>
 
 <?php
