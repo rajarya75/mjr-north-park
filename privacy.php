@@ -218,7 +218,7 @@ During data transmission between the user and server, sensitive information unde
 					RERA NO. PRM/KA/RERA/1251/472/PR/050224/006611<br>
                 </div>	
 				<div class="col-md-4 col-lg-4 col-12 text-white text-right">
-					Designed By:Sparkior Media<br>
+					<br>
 				</div>				
             </div><br>
 						<div class="" style="text-align:center;">
@@ -242,7 +242,7 @@ During data transmission between the user and server, sensitive information unde
 					RERA NO. PRM/KA/RERA/1251/472/PR/050224/006611<br>
                 </div>	
 				<div class="col-md-4 col-lg-4 col-12 text-white text-center">
-					Designed By:Sparkior Media<br>
+					<br>
 				</div>				
             </div><br>
 			<div class="" style="text-align:center;">

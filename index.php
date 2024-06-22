@@ -596,7 +596,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					RERA NO. PRM/KA/RERA/1251/472/PR/050224/006611<br>
                 </div>	
 				<div class="col-md-4 col-lg-4 col-12 text-white text-right">
-					Designed By:Sparkior Media<br>
+					<br>
 				</div>				
             </div><br>
 						<div class="" style="text-align:center;">
@@ -620,7 +620,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					RERA NO. PRM/KA/RERA/1251/472/PR/050224/006611<br>
                 </div>	
 				<div class="col-md-4 col-lg-4 col-12 text-white text-center">
-					Designed By:Sparkior Media<br>
+					<br>
 				</div>				
             </div><br>
 			<div class="" style="text-align:center;">
