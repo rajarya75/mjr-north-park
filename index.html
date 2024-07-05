@@ -23,6 +23,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
+    <!-- Aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- Google Tag Manager -->
     <script>(function (w, d, s, l, i) {
             w[l] = w[l] || []; w[l].push({
@@ -52,7 +55,17 @@
     <div class="container">
         <header class="header">
             <div class="logo"><a href="/"><img src="images/logo.png" alt=""></a></div>
-            <div class="humberger"><img src="images/humberger.png" alt=""></div>
+            <div class="humberger" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                aria-controls="offcanvasRight"><img src="images/humberger.png" alt=""></div>
+            <!-- <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                aria-labelledby="offcanvasRightLabel">
+                <div class="offcanvas-header">
+                    <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body"> ... </div>
+            </div> -->
         </header>
     </div>
     <!-- Home -->
@@ -61,9 +74,11 @@
         <div class="container">
             <div class="home-info">
                 <div>
-                    <h1>The Next Big Thing in <br>Urban Living</h1>
-                    <p><b>2, 3, 4 BHK</b> in <b>KIADB, Aerospace SEZ Park,</b><br> New Bengaluru</p>
-                    <button class="btn btn-mjr" data-bs-toggle="modal" data-bs-target="#leadModal">Enquire Now</button>
+                    <h1 data-aos="fade-up" data-aos-duration="1000">The Next Big Thing in <br>Urban Living</h1>
+                    <p data-aos="fade-up" data-aos-duration="2000"><b>2, 3, 4 BHK</b> in <b>KIADB, Aerospace SEZ
+                            Park,</b><br> New Bengaluru</p>
+                    <button data-aos="fade-up" data-aos-duration="3000" class="btn btn-mjr" data-bs-toggle="modal"
+                        data-bs-target="#leadModal">Enquire Now</button>
                 </div>
             </div>
         </div>
@@ -73,20 +88,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <div class="about-bg">
+                    <div class="about-bg" data-aos="fade-up" data-aos-duration="2000">
                         <img src="images/about-bg.png" class="img-fluid" alt="">
                     </div>
                 </div>
                 <div class="col-md-5">
                     <div class="about-info">
-                        <h2>Live in the most happening part of Bengaluru!</h2>
-                        <img src="images/line.png" class="img-fluid" alt="">
-                        <p>MJR North Park offers a refreshing take on urban living, where the mornings greet you with
-                            sunshine and evenings offer a canvas of stars right at your doorstep. Our range of homes,
-                            from inviting studios to expansive 2 and 3 BHKs, cater to your desire for a fulfilling and
-                            joyful lifestyle, all set within the lively environs of Bagalur.</p>
-                        <button class="btn btn-mjr" data-bs-toggle="modal" data-bs-target="#leadModal">Enquire
-                            Now</button>
+                        <h2 data-aos="fade-up" data-aos-duration="1000">Live in the most happening part of Bengaluru!
+                        </h2>
+                        <img data-aos="fade-up" data-aos-duration="2000" src="images/line.png" class="img-fluid" alt="">
+                        <p data-aos="fade-up" data-aos-duration="2000">MJR North Park offers a refreshing take on urban
+                            living, where the mornings greet you with sunshine and evenings offer a canvas of stars
+                            right at your doorstep. Our range of homes, from inviting studios to expansive 2 and 3 BHKs,
+                            cater to your desire for a fulfilling and joyful lifestyle, all set within the lively
+                            environs of Bagalur.</p>
+                        <button data-aos="fade-up" data-aos-duration="3000" class="btn btn-mjr" data-bs-toggle="modal"
+                            data-bs-target="#leadModal">Enquire Now</button>
                     </div>
                 </div>
             </div>
@@ -96,42 +113,42 @@
     <section class="highlight">
         <div class="container">
             <div class="head">
-                <h2>Live Ahead of the Curve</h2>
-                <div><img src="/images/line.png" alt=""></div>
-                <p>NEW BENGALURU: Tomorrow's Destination, Today</p>
+                <h2 data-aos="fade-up" data-aos-duration="1000">Live Ahead of the Curve</h2>
+                <div data-aos="fade-up" data-aos-duration="2000"><img src="/images/line.png" alt=""></div>
+                <p data-aos="fade-up" data-aos-duration="2000">NEW BENGALURU: Tomorrow's Destination, Today</p>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-4 hl-item">
+                <div class="col-md-4 hl-item" data-aos="fade-up" data-aos-duration="1000">
                     <img src="images/highlight/hl-item1.png" class="img-fluid" alt="">
                     <h3>Ahead in Style, Ahead in Living</h3>
                     <p>Only 15 minutes from the Kempegowda airport, connected smoothly to the city along Hennur -
                         Bagalur Main Rd.</p>
                 </div>
-                <div class="col-md-4 hl-item">
+                <div class="col-md-4 hl-item" data-aos="fade-up" data-aos-duration="2000">
                     <img src="images/highlight/hl-item2.png" class="img-fluid" alt="">
                     <h3>Most Happening Part of City</h3>
                     <p>Located in KIADB, Aerospce SEZ Park, New Bengaluru, a job magnet of the future Bengaluru</p>
                 </div>
-                <div class="col-md-4 hl-item">
+                <div class="col-md-4 hl-item" data-aos="fade-up" data-aos-duration="3000">
                     <img src="images/highlight/hl-item3.png" class="img-fluid" alt="">
                     <h3>Be First in Line for the Future</h3>
                     <p>Moments from key developments like the Devanahalli Business Park and upcoming Namma Metro.</p>
                 </div>
-                <div class="col-md-4 hl-item">
+                <div class="col-md-4 hl-item" data-aos="fade-up" data-aos-duration="1000">
                     <img src="images/highlight/hl-item4.png" class="img-fluid" alt="">
                     <h3>Future-Ready Living</h3>
                     <p>A community where future plans include the Peripheral Ring Road, expansive roadways, bridges,
                         Bangalore ITIR.</p>
                 </div>
-                <div class="col-md-4 hl-item">
+                <div class="col-md-4 hl-item" data-aos="fade-up" data-aos-duration="2000">
                     <img src="images/highlight/hl-item5.png" class="img-fluid" alt="">
                     <h3>Define Your Tomorrow in New Bengaluru</h3>
                     <p>An area witnessing a real estate appreciation of 8-10% annually, fueled by nearby airport-led
                         commercial activities.</p>
                 </div>
-                <div class="col-md-4 hl-item">
+                <div class="col-md-4 hl-item" data-aos="fade-up" data-aos-duration="3000">
                     <img src="images/highlight/hl-item6.png" class="img-fluid" alt="">
                     <h3>Fast Forward to Urban Living </h3>
                     <p>Ensure convenience - surrounded by prestigious schools, specialty hospitals, shopping malls,
@@ -143,28 +160,28 @@
     <!-- Project -->
     <section class="project">
         <div class="container">
-            <div class="head">
+            <div class="head" data-aos="fade-up" data-aos-duration="1000">
                 <h2>Project Configurations</h2>
                 <div><img src="images/line.png" alt=""></div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-4 pc-item">
+                <div class="col-md-4 pc-item" data-aos="fade-up" data-aos-duration="1000">
                     <h3>2 BHK</h3>
                     <p>1050 - 1100 Sq.ft.</p>
                     <button class="btn btn-mjr-outline" data-bs-toggle="modal" data-bs-target="#leadModal">Enquire
                         Now</button>
                     <img src="images/project/project1.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-md-4 pc-item">
+                <div class="col-md-4 pc-item" data-aos="fade-up" data-aos-duration="2000">
                     <h3>3 BHK</h3>
                     <p>1596 Sq.ft.</p>
                     <button class="btn btn-mjr-outline" data-bs-toggle="modal" data-bs-target="#leadModal">Enquire
                         Now</button>
                     <img src="images/project/project2.png" class="img-fluid" alt="">
                 </div>
-                <div class="col-md-4 pc-item">
+                <div class="col-md-4 pc-item" data-aos="fade-up" data-aos-duration="3000">
                     <h3>4 BHK</h3>
                     <p>2075 Sq.ft.</p>
                     <button class="btn btn-mjr-outline" data-bs-toggle="modal" data-bs-target="#leadModal">Enquire
@@ -177,76 +194,76 @@
     <!-- Amenities -->
     <section class="amenities">
         <div class="container">
-            <div class="head">
+            <div class="head" data-aos="fade-up" data-aos-duration="1000">
                 <h2>Amenities</h2>
                 <div><img src="images/line.png" alt=""></div>
             </div>
         </div>
         <div class="container">
             <div class="amenities-box">
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="1000">
                     <img src="images/amenities/a1.png" class="img-fluid" alt="">
                     <p>Clubhouse</p>
                 </div>
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="2000">
                     <img src="images/amenities/a2.png" class="img-fluid" alt="">
                     <p>Gymnsium</p>
                 </div>
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="3000">
                     <img src="images/amenities/a3.png" class="img-fluid" alt="">
                     <p>Multipurpose Hall</p>
                 </div>
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="3000">
                     <img src="images/amenities/a4.png" class="img-fluid" alt="">
                     <p>Tennis Court</p>
                 </div>
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="2000">
                     <img src="images/amenities/a5.png" class="img-fluid" alt="">
                     <p>Indoor Games</p>
                 </div>
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="1000">
                     <img src="images/amenities/a6.png" class="img-fluid" alt="">
                     <p>Billards</p>
                 </div>
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="1000">
                     <img src="images/amenities/a7.png" class="img-fluid" alt="">
                     <p>Table Tennis</p>
                 </div>
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="2000">
                     <img src="images/amenities/a8.png" class="img-fluid" alt="">
                     <p>Work Pods</p>
                 </div>
             </div>
             <div class="amenities-box">
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="1000">
                     <img src="images/amenities/a9.png" class="img-fluid" alt="">
                     <p>Badminton</p>
                 </div>
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="2000">
                     <img src="images/amenities/a10.png" class="img-fluid" alt="">
                     <p>Basketball Court</p>
                 </div>
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="3000">
                     <img src="images/amenities/a11.png" class="img-fluid" alt="">
                     <p>Cricket Practice Net</p>
                 </div>
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="1000">
                     <img src="images/amenities/a12.png" class="img-fluid" alt="">
                     <p>Walkways</p>
                 </div>
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="2000">
                     <img src="images/amenities/a13.png" class="img-fluid" alt="">
                     <p>Jogging Track</p>
                 </div>
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="3000">
                     <img src="images/amenities/a14.png" class="img-fluid" alt="">
                     <p>Children Play Area</p>
                 </div>
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="1000">
                     <img src="images/amenities/a15.png" class="img-fluid" alt="">
                     <p>Landscaped Gardens</p>
                 </div>
-                <div class="a-item">
+                <div class="a-item" data-aos="fade-up" data-aos-duration="2000">
                     <img src="images/amenities/a16.png" class="img-fluid" alt="">
                     <p>24 Hours Security</p>
                 </div>
@@ -256,7 +273,7 @@
     <!-- Locationo -->
     <section class="location">
         <div class="container">
-            <div class="head">
+            <div class="head" data-aos="fade-up" data-aos-duration="1000">
                 <h2>Location Map</h2>
                 <div><img src="images/line.png" alt=""></div>
             </div>
@@ -264,34 +281,35 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <div class="path">
+                    <div class="path" data-aos="fade-up" data-aos-duration="2000">
                         <img src="images/location/road.png" class="img-fluid" alt="">
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <div class="map">
+                    <div class="map" data-aos="fade-up" data-aos-duration="2000">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.251954418954!2d77.67615307489615!3d13.146500987185199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1b0010c5d1d7%3A0xb367cec1a1b2bb53!2sMJR%20North%20Park!5e0!3m2!1sen!2sin!4v1720138084803!5m2!1sen!2sin"
                             width="100%" height="450" style="border:0; border-radius: 16px;" allowfullscreen=""
                             loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                    <div class="map-head">
+                    <div class="map-head" data-aos="fade-up" data-aos-duration="1000">
                         <img src="images/location/map-icon.png" class="img-fluid" alt="">
                         <h3>Google Maps</h3>
                     </div>
-                    <div class="map-item">
+                    <div class="map-item" data-aos="fade-up" data-aos-duration="2000">
                         <h4>International Airport</h4>
                         <p> Just a short drive away</p>
                     </div>
-                    <div class="map-item">
+                    <div class="map-item" data-aos="fade-up" data-aos-duration="3000">
                         <h4>Proposed Peripheral Ring Road</h4>
                         <p>Ensuring smooth connectivity to various parts of the city</p>
                     </div>
-                    <div class="map-item">
+                    <div class="map-item" data-aos="fade-up" data-aos-duration="3000">
                         <h4>Multiple Schools</h4>
                         <p>Numerous reputable schools are within close proximity</p>
                     </div>
-                    <button class="btn btn-mjr" data-bs-toggle="modal" data-bs-target="#leadModal">Enquire Now</button>
+                    <button data-aos="fade-up" data-aos-duration="3000" class="btn btn-mjr" data-bs-toggle="modal"
+                        data-bs-target="#leadModal">Enquire Now</button>
                 </div>
             </div>
         </div>
@@ -301,12 +319,12 @@
     <!-- Gallery -->
     <section class="gallery">
         <div class="container">
-            <div class="head">
+            <div class="head" data-aos="fade-up" data-aos-duration="1000">
                 <h2>Project Gallery</h2>
                 <div><img src="images/line.png" alt=""></div>
             </div>
         </div>
-        <div class="container">
+        <div class="container" data-aos="fade-up" data-aos-duration="2000">
             <img src="images/gallery.png" class="img-fluid" alt="">
             <p>Artistic Impressions of the Project</p>
         </div>
@@ -316,11 +334,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <div class="head">
+                    <div class="head" data-aos="fade-up" data-aos-duration="1000">
                         <h2>Masterplan</h2>
                         <div><img src="images/line.png" alt=""></div>
                     </div>
-                    <div class="plan-points">
+                    <div class="plan-points" data-aos="fade-up" data-aos-duration="2000">
                         <ul>
                             <li>01. Entrance Gateway with signage obelisk</li>
                             <li>02. Security cabin </li>
@@ -341,11 +359,11 @@
                             <li>17. Basement entry ramp</li>
                             <li>18. Basement exit ramp</li>
                         </ul>
-                        <div class="text-center"><button class="btn btn-mjr" data-bs-toggle="modal"
-                                data-bs-target="#leadModal">Enquire Now</button></div>
+                        <div data-aos="fade-up" data-aos-duration="3000" class="text-center"><button class="btn btn-mjr"
+                                data-bs-toggle="modal" data-bs-target="#leadModal">Enquire Now</button></div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-up" data-aos-duration="2000">
                     <img src="images/plan.png" class="img-fluid" alt="">
                 </div>
             </div>
@@ -434,6 +452,9 @@
                 }
             });
         });
+    </script>
+    <script>
+        AOS.init();
     </script>
 </body>
 
