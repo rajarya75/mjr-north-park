@@ -627,6 +627,29 @@ body {
     }
 }
 
+// Policy
+.policy {
+    padding-top: 60px;
+    padding-bottom: 100px;
+
+    h1 {
+        font-weight: 700;
+        color: $primary;
+    }
+
+    h2 {
+        font-weight: 600;
+        color: $primary;
+    }
+
+    p {
+        font-size: 18px;
+        color: $secondary;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+}
+
 // Responsive
 @media(min-width: 1600px) {
     .container {
@@ -673,6 +696,14 @@ body {
 }
 
 @media(max-width: 768px) {
+    .header {
+        height: 60px;
+
+        .logo img {
+            max-width: 150px;
+        }
+    }
+
     .download-brochure {
         padding: 2px 12px;
         font-size: 10px;
@@ -755,6 +786,10 @@ body {
         flex-wrap: wrap;
     }
 
+    .footer .footer-bottom .left {
+        flex-direction: column;
+    }
+
     .footer .footer-top .right {
         width: 100%;
     }
@@ -780,5 +815,11 @@ body {
     .plan-bg-left,
     .plan-bg-right {
         display: none;
+    }
+}
+
+@media(max-width: 380px) {
+    .home {
+        background-position: -470px 0px;
     }
 }
