@@ -25,6 +25,10 @@ body {
 .btn-mjr:hover {
   color: #dfdfdf;
 }
+.btn-mjr.white {
+  background-color: #ffffff;
+  color: #023F88;
+}
 
 .download-brochure {
   background-color: #023F88;

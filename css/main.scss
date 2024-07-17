@@ -33,6 +33,11 @@ body {
     &:hover {
         color: #dfdfdf;
     }
+
+    &.white {
+        background-color: $white;
+        color: $primary;
+    }
 }
 
 .download-brochure {
